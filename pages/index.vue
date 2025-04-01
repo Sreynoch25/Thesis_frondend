@@ -1,6 +1,6 @@
 <template>
     <div>
-       <p class="grid place-content-center font-bold text-lg"> {{ $t("content.home") }}</p>
+       <p class="grid place-content-center font-bold text-lg"> {{ $t("content.home") }} hello</p>
     </div>
   </template>
 
