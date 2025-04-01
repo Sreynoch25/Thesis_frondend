@@ -1,8 +1,8 @@
 <template>
     <div>
-       <p class="grid place-content-center font-bold text-lg"> {{ $t("content.home") }}</p>
+        Categories
     </div>
-  </template>
+</template>
 
 <script setup lang="ts">
 definePageMeta({
