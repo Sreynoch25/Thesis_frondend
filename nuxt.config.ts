@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@pinia/nuxt',
   ],
+  tailwindcss: {
+    configPath: 'tailwind.config.cjs', // Adjust if renamed to `tailwind.config.mjs`
+  },
   plugins: [
     '~/plugins/iconify.ts', 
     '~/plugins/i18n.config.ts',
